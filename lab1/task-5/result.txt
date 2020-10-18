@@ -1,0 +1,43 @@
+http://localhost:8080/json_server/posts
+[
+  {
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  },
+  {
+    "id": 2,
+    "title": "json-server",
+    "author": "typicode"
+  }
+]
+
+http://localhost:8080/json_server/comments
+[
+  {
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }
+]
+
+http://localhost:8080/json_server/profile
+{
+  "name": "typicode"
+}
+
+http://localhost:8080
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+    <h1>'Hello World'</h1>
+</body>
+</html>
